@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+     .navBtn {
+        @apply h-6 hover:scale-125 hidden md:inline-flex transition-all ease-out duration-150 cursor-pointer;
+    }
+    .btn {
+        @apply h-7 hover:scale-110 transition-all duration-150 ease-out
+    }
+}
