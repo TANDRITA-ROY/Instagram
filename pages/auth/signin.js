@@ -1,6 +1,6 @@
 import { getProviders, signIn as signInProvider } from "next-auth/react";
 import Header from "../../components/Header";
-const SignIn = ({ providers }) => {
+const signIn = ({ providers }) => {
   return (
     <>
       <Header />
@@ -32,4 +32,4 @@ export async function getServerSideProps(context) {
     props: { providers },
   };
 }
-export default SignIn;
+export default signIn;
